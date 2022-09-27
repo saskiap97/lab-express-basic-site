@@ -19,5 +19,6 @@
   "homepage": "https://github.com/saskiap97/lab-express-basic-site#readme",
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "devDependencies": {}
 }
