@@ -21,13 +21,13 @@ app.get('/about', (request, response, next) => {
 });
 
 app.get('/works', (request, response, next) => {
-    console.log('this is the contact page');
-    response.sendFile(__dirname + '/views/works.html');
-  });
+  console.log('this is the contact page');
+  response.sendFile(__dirname + '/views/works.html');
+});
 
-  app.get('/gallery', (request, response, next) => {
-    console.log('this is the gallery page');
-    response.sendFile(__dirname + '/views/gallery.html');
-  });
+app.get('/gallery', (request, response, next) => {
+  console.log('this is the gallery page');
+  response.sendFile(__dirname + '/views/gallery.html');
+});
 
-app.listen(5500, () => console.log('My first app listening on port 3000! '));
+app.listen(5500, () => console.log('My first app listening on port ! '));
